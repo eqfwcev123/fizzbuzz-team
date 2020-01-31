@@ -38,3 +38,8 @@ for i in range(1, 100+1):
 # jaemin
 # func = lambda x: "fizzbuzz" if x%15==0 else "fizz" if x%3==0 else "buzz" if x%5==0 else x
 # print(*map(func, range(1,101))
+
+
+# dohyeon
+def fizzbuzz(n): return map(lambda x: 'fizzbuzz' if not x % 5 and not x % 3 else 'fizz' if not x % 3 else 'buzz' if not x % 5 else str(x), range(1,101))
+
